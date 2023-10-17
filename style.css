@@ -1,0 +1,300 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* max-width: 100%; */
+}
+
+
+
+.navbar-nav li{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navbar-nav li a{
+    color: #000;
+}
+
+.form{
+    position: relative;
+}
+
+.form .fa-magnifying-glass{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.form-control{
+    text-indent: 30px;
+    width: 100%;
+}
+
+.container-main{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.home-video{
+    width:100%;
+    height:auto;
+}
+
+.home-text h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #000;
+}
+
+.home-text p{
+    color: #000;
+    font-size: 20px;
+}
+
+.home-text a{
+    background-color: #000;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 15px 0;
+    border-radius: 40px 40px;
+}
+
+
+.home-text a:hover{
+    background-color: #3b3b3b;
+    transition: 0.3s;
+}
+
+
+.explo-1{
+    background-image: url(./images/explore1.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: auto;            
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.explo-1 h5{
+    color: #fff;
+}
+
+.explo-1 a{
+    background-color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin: 15px 0;
+    border-radius: 40px 40px;
+}
+
+.explo1-text{
+    padding-left: 50px;
+    padding-top: 80%;
+    padding-bottom: 30px;
+}
+
+.explo-2{
+    background-image: url(./images/explore2.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: auto;            
+    top: 0;
+    left: 0;
+}
+
+.explo-2 h5{
+    color: #fff;
+}
+
+.explo-2 a{
+    background-color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin: 15px 0;
+    border-radius: 40px 40px;
+}
+
+.explo2-text{
+    padding-left: 50px;
+    padding-top: 80%;
+    padding-bottom: 30px;
+}
+
+.explo1-text a:hover{
+    background-color: #bdb8b8;
+    transition: 0.3s;
+}
+
+.explo2-text a:hover{
+    background-color: #bdb8b8;
+    transition: 0.3s;
+}
+
+#discover .discover:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+#last ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+#last a{
+    text-decoration: none;
+    color: #857d7d;
+    font-weight: 500;
+}
+
+#last a:hover{
+    color: #3b3737;
+    transition: 0.3s;
+}
+
+footer{
+    background-color: #1a1717;
+    width: 100%;
+}
+
+footer ul li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+footer ul li h6 a{
+    font-size: 13px;
+    color: #fff;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #706e6e;
+    font-size: 13px;
+}
+
+footer .foot-link li a:hover{
+    color: #fff;
+}
+
+.social-link{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-link li a{
+    padding: 4px 6px;
+    border-radius: 100%;
+    font-size: 18px;
+    background-color: #949292;
+    color: #000;
+}
+
+.social-link li a:hover{
+    background-color: #fff;
+    transition: 0.1s;
+}
+
+.copyright{
+    display: inline-flex;
+}
+
+.copyright .copy-bold a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.t-c{
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-c p a{
+    text-decoration: none;
+    color: #706e6e;
+    font-size: 14px;
+}
+
+.t-c p a:hover{
+    color: #fff;
+}
+
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.cardz {
+    margin: 0 0.5em 0 0;
+}
+
+
+.carousel button span{
+    margin-top: -10%;
+    border-radius: 50%;
+    background-color: #3b3b3b;
+}
+
+.carousel button .carousel-control-prev-icon{
+    margin-left: -50%;
+}
+
+.carousel button .carousel-control-next-icon{
+    margin-right: -40%;
+}
+
+.ico li a{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    padding: 4px 6px;
+    border-radius: 50%;
+}
+
+.ico li a:hover{
+    background-color: #bbbbbb;
+    transition: 0.3s;
+}
+
+@media (max-width: 600px){
+    .navbar .navbar-brand{
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 990px){
+    .navbar .ico{
+        display: none;
+    }
+
+    .navbar .navbar-brand img{
+        margin-left: -100px;
+    }
+}
